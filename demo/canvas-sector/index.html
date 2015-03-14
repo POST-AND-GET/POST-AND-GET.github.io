@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>饼形图绘制-canvas</title>
+<style>
+#cvs{border:#0F0 solid 1px;margin-left: 25%}
+</style>
+</head>
+
+<body>
+<canvas id="cvs" width="200" height="200">对不起，您的浏览器不支持canvas</canvas>
+</body>
+<script type="text/javascript" src="secto.js"></script>
+<script type="text/javascript">
+var p = [{'s' : 30,'e' : 111,'c' : '#f00'},
+            {'s' : 111,'e' : 233,'c' : '#0f0'},
+            {'s' : 233,'e' : 280,'c' : '#789'},
+            {'s' : 280,'e' : 345,'c' : '#abcdef'},
+            {'s' : 345,'e' : 30,'c' : '#666'}];
+pie('cvs',100,100,80,p);
+</script>
+</html>
