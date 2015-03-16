@@ -29,7 +29,7 @@ sass:
 # comment
 comments:
     duoshuo:
-        name:post-and-get                         # short name
+        name:post-and-get
         rcomments:
             num: 10
             avatar: 0
@@ -40,5 +40,5 @@ comments:
 # 网站统计
 analytics:
     baidu:
-        siteid:46bd585da3316b294a1bafac920786ce                             # 百度统计 js 代码后的字符串
+        siteid:46bd585da3316b294a1bafac920786ce
 
