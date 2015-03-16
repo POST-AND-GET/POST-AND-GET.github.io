@@ -10,21 +10,22 @@ tags: [css3]
 **index.html**
 
     <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-        <link rel="stylesheet" href="index.css"/>
-    </head>
-    <body>
-        <div class="box">
-            
-        </div>
-        <div class="box_small">
-            
-        </div>
-    </body>
-</html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title></title>
+            <link rel="stylesheet" href="index.css"/>
+        </head>
+        <body>
+            <div class="box">
+                
+            </div>
+            <div class="box_small">
+                
+            </div>
+        </body>
+    </html>
+
 **css**
     *{margin: 0;padding: 0; border: none;}
 .box {
