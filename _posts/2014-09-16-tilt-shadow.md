@@ -4,6 +4,7 @@ title: "翘边相框demo"
 category: demo
 tags: [css3]
 ---
+这种翘边阴影的实际原理是利用视觉的一种错觉，在实体box下放带有阴影元素
 
  `box-shadow: h-shadow v-shadow blur spread color inset;`
 
@@ -78,6 +79,5 @@ tags: [css3]
         transform:skew(15deg) rotate(6deg);
     }
 
-> 这是一个引用
 
 
