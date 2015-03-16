@@ -1,4 +1,3 @@
-# Site settings
 title: "POST-AND-GET"
 url: "//post-and-get.github.io"
 highlighter: pygments
@@ -15,7 +14,6 @@ author:
 atom_path: /atom.xml
 rss_path: /rss.xml
 
-# Build settings
 markdown: redcarpet
 redcarpet:
     extensions: ["fenced_code_blocks", "tables", "highlight", "strikethrough"]
@@ -26,7 +24,6 @@ sass:
     sass_dir: assets/_sass
     style: :compressed
 
-# comment
 comments:
     duoshuo:
         name:post-and-get
@@ -37,7 +34,6 @@ comments:
             title: 0
             admin: 0
             length: 26
-# 网站统计
 analytics:
     baidu:
         siteid:46bd585da3316b294a1bafac920786ce
