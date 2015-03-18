@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "自己瞎做的一个上下滑动页面的demo"
+title: "收集到的一个页面滑动广告"
 category: demo
-tags: [css3,js]
+tags: [滑动,ad]
 ---
 最近看到了一个不错的移动端滑动页面，所以搜集了起来，嘎嘎~
 
