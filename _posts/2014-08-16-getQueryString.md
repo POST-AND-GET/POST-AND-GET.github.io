@@ -4,7 +4,7 @@ title: "js获取url中的参数"
 category: js
 tags: [js]
 ---
-有的时候不是特别重要的数据要通过url在各个页面经行传递，这个时候就需要我们通过js来获取url中的参数了。
+有的时候不是特别重要的数据要通过url在各个页面进行传递，这个时候就需要我们通过js来获取url中的参数了。
 
 
     function getQueryString(name) {
