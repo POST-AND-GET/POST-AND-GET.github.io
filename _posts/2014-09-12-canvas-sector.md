@@ -7,7 +7,11 @@ tags: [H5]
 canvas是个不错的家伙，未来有很大的发展空间。
 
 <a href="/demo/canvas-sector/index.html" target="_blank">演示</a>
+
+<!-- more -->
+
 **html**
+
     <!doctype html>
     <html>
     <head>
@@ -17,7 +21,6 @@ canvas是个不错的家伙，未来有很大的发展空间。
     #cvs{border:#0F0 solid 1px;margin-left: 25%}
     </style>
     </head>
-
     <body>
     <canvas id="cvs" width="200" height="200">对不起，您的浏览器不支持canvas</canvas>
     </body>
@@ -32,7 +35,7 @@ canvas是个不错的家伙，未来有很大的发展空间。
     </script>
     </html>
 
-    **secto.js**
+**secto.js**
 
     CanvasRenderingContext2D.prototype.sector = function sector(x, y, radius, sDeg, eDeg,color) {
     Angle = Math.PI/180;
