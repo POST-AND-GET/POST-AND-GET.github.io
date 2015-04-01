@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+		<title>康师傅</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<script src="js/jquery-1.7.2.min.js"></script>
+	</head>
+
+	<body onload="resetPage()">
+		<img class="bg" src="images/bg2.jpg" />
+		<div class="content">
+			<div class="text"><img src="images/aiqing.png" width="198"/></div>
+			<div class="img">
+				<img class="border" src="images/a1.jpg" width="105" height="71" style="display: block;margin:0 auto 8px;"/>
+				<img class="border" src="images/a2.jpg" width="105" height="71"/>
+				<img class="border" src="images/a3.jpg" width="105" height="71"/>
+			</div>
+			<div class="bless">
+				<select id="blessItem">
+					<option value="">-选择贺卡背景和祝福语</option>
+					<option value="">大手牵小手，时刻不放手，新年梦想：爱你1314！</option>
+					<option value="">感谢一个“缘”字，让你我相逢，永不分离。</option>
+					<option value="">最幸福的爱，就是找到了你，新的一年，我们要继续一起为梦想努力！</option>
+					<option value="">任天之涯，海之角，我会永远陪在你身旁！</option>
+					<option value="">天灯照亮新的一年，新的梦想，只于亲爱的你！</option>
+				</select>
+			</div>
+			<div id="blesscon"></div>
+			<span id="makecard"></span>
+		</div>
+		<audio src="images/music.mp3" autoplay="autoplay" loop="loop" style="width: 0;height: 0;"></audio>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/select.js"></script>
+	</body>
+
+</html>

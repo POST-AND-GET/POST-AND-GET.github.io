@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+		<title>康师傅</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script src="js/jquery-1.7.2.min.js"></script>
+	</head>
+
+	<body onload="resetPage()">
+		<img class="bg" src="images/bg2.jpg" />
+		<div class="content">
+			<div class="text">
+				<img src="images/youqing.png" width="198" />
+			</div>
+			<div class="img">
+				<img class="border" src="images/y1.jpg" width="105" height="71" style="display: block;margin:0 auto 8px;" />
+				<img class="border" src="images/y2.jpg" width="105" height="71" />
+				<img class="border" src="images/y3.jpg" width="105" height="71" />
+			</div>
+			<div class="bless">
+				<select id="blessItem">
+					<option value="">-选择贺卡背景和祝福语</option>
+					<option value="">曾经我们同甘苦，现在你我共辉煌，梦想路上有你真好</option>
+					<option value="">好朋友，从今生直到永永远远，新年快乐！</option>
+					<option value="">家是避风的港湾，朋友是饶风的海岸，祝你幸福，为你干杯！</option>
+					<option value="">朋友一生一起走，那种日子不再有，愿你切安好。</option>
+					<option value="">一路挺你，一起发光，让我们的梦想和天灯一起飞翔！</option>
+				</select>
+			</div>
+			<div id="blesscon"></div>
+			<span id="makecard"></span>
+		</div>
+		<audio src="images/music.mp3" autoplay="autoplay" loop="loop" style="width: 0;height: 0;"></audio>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/select.js"></script>
+	</body>
+
+</html>

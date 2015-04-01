@@ -1,0 +1,10 @@
+
+/*滑动*/
+.swipe { overflow: hidden; }
+.swipe-wrap {overflow: hidden;position: relative; }
+.swipe-wrap > div {float:left;width:100%;position: relative;}
+.swipe-wrap a{ float: left;}
+.swipe-wrap img{width:100%; height:auto;}
+.prev,.next{width:13px;height:59px; border:none; position:absolute; }
+.prev{left:-25px;background: url(../images/pre.png) no-repeat;background-size:13px 30px ;z-index: 99;}
+.next{left:265px;background: url(../images/next.png) no-repeat;background-size:13px 30px ;}

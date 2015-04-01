@@ -1,0 +1,40 @@
+body{position: relative;}
+input{margin: 0;padding: 0;border: none;background: #FFFFFF;border: 1px #aaa9a9 solid;border-radius: 5px;}
+select{margin: 0;padding: 0;border: none;background: #FFFFFF;border: 1px #aaa9a9 solid;border-radius: 5px;}
+.content{width: 280px; height: 295px;position: absolute;left:23px;top:73px;}
+.content h1{text-align: center;margin-top: 11px;}
+.nav{position: absolute;width: 320px; height: 60px;left: 0; bottom: 5px;}
+.nav li{width: 25%; height: 60px;float: left;}
+.form {width: 280px; margin-top: 12px;}
+.form span{text-align: right;width: 90px;display: inline-block;height: 20px;font-size: 16px;color: #004ea2;}
+.form .name{height: 20px;width: 100%;margin-bottom: 15px;}
+.form #name {width: 141px;height: 20px;margin-left: 17px;}
+.form .phone{height: 20px;width: 100%;margin-bottom: 15px;}
+.form #phone {width: 141px;height: 20px;margin-left: 17px;}
+.form .province{height: 20px;width: 100%;margin-bottom: 15px;}
+.form #province {width: 141px;height: 20px;margin-left: 15px; }
+.form .city{height: 20px;width: 100%;margin-bottom: 15px;}
+.form #city {width: 141px;height: 20px;margin-left: 15px;}
+.form .dealer{height: 20px;width: 100%;margin-bottom: 15px;}
+.form #dealer {width: 141px;height: 20px;margin-left: 15px;}
+.form #button{margin: 0 auto;width:79px; height:25px}
+.success{position: absolute;top: 45%;left: 20%;display: none;}
+.select .submit .province{width: 110px;height: 20px; float: left;}
+.select .submit .province span{height: 20px;font-size: 16px;color: #004ea2;}
+.select .submit .province #province{width: 80px; height: 20px;}
+.select .submit .city{width: 110px;height: 20px;float: left; }
+.select .submit .city span{height: 20px;font-size: 16px;color: #004ea2;}
+.select .submit .city #city{width: 80px; height: 20px;}
+.select{width: 95%;margin: 0 auto;}
+.peizhi{width: 272px; height: 324px; overflow: auto;position: absolute;left: 25px; top: 126px;}
+.result{width: 257px; height: 192px;margin-top: 5px;font-size: 13px;overflow: auto;}
+.one{display: block;color: #005aab;margin-bottom: 3px;}
+.img{width: 252px; height: 356px;position: absolute;top: 73px;left: 35px;overflow-x: hidden;overflow-y: auto;}
+.img ul{width: 300px;}
+.img ul li{float: left;margin-right:20px ;margin-bottom: 9px;width: 104px; height: 74px;background: #FFFFFF;box-shadow:1px 1px 10px #666666;padding: 4px;}
+.img ul li img{}
+.showimg{position: absolute;top: 150px;left: 30px; z-index: 99;display: none;}
+#maskbg{ background:#FFFFFF; filter: Alpha(opacity=50); -moz-opacity: 0.5; -khtml-opacity: 0.5; opacity: 0.5; height: 465px;position: absolute;top: 0;left: 0;width: 320px;display: none;}
+.pn{position: absolute;top: 100px;}
+
+

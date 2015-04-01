@@ -1,0 +1,38 @@
+.lianxi{width: 960px;height: auto;margin: 0 auto;border-top: 2px #000000 solid;background: #f1f0f0;}
+.position{width: 890px;height: auto;margin: 0 auto;}
+.position p{color: #7e7e7e;line-height: 24px;}
+.position .bj{margin-top: 24px;}
+.position .bj .L{width: 70%; float: left;}
+.position .bj .L h1{width: 96px;height: 25px; background: url(../images/bj.png) no-repeat;text-indent: -9999px;}
+.position .bj .R{width: 30%; float: left;margin-top: 25px;}
+.position .bj .R span{display: inline-block;line-height: 30px;height: 30px;color: #7e7e7e;}
+.position .bj .R a{display: inline-block;width: 77px; height: 22px;background: url(../images/qqtalk.png) no-repeat;text-indent: -9999px;}
+.position .sh{margin-top: 4px;}
+.position .sh .L{width: 70%; float: left;}
+.position .sh .L h1{width: 96px;height: 25px; background: url(../images/sh.png) no-repeat;text-indent: -9999px;margin-bottom: 5px;}
+.position .sh .R{width: 30%; float: left;margin-top: 25px;}
+.position .sh .R span{display: inline-block;line-height: 30px;height: 30px;color: #7e7e7e;}
+.position .sh .R a{display: inline-block;width: 77px; height: 22px;background: url(../images/qqtalk.png) no-repeat;text-indent: -9999px;}
+.position img{margin-top: 10px;margin-bottom: 20px;}
+.qq{width: 900px;margin: 0 auto;color: #7e7e7e;margin-top: 25px;}
+.qq .b1 p{line-height: 25px;background: #f1f0f0;}
+.qq .b1{width: 900px;height: 180px;border-bottom: 2px #e5e5e5 solid;}
+.qq .b1 .l{width: 520px; height: 180px;float: left;}
+.qq .b1 .l h1{width: 217px;height: 25px;background: url(../images/hangye.png) no-repeat;text-indent: -9999px;margin-bottom: 5px;}
+.qq .b1 .r h1{width: 217px;height: 25px;background: url(../images/pingpai.png) no-repeat;text-indent: -9999px;margin-bottom: 5px;}
+.qq .b1 .r{width: 380px; height: 180px;float: right;}
+.qq .b1 span{display: inline-block;line-height: 30px;height: 30px;}
+.qq .b1 a{display: inline-block;width: 77px; height: 22px;background: url(../images/qqtalk.png) no-repeat;text-indent: -9999px;}
+.qq .b2{margin-top: 18px;}
+.qq .b2 p{line-height: 25px;}
+.qq .b2 .l{width: 520px; height: 260px;float: left;}
+.qq .b2 .l h1{width: 217px;height: 25px;background: url(../images/kaifa.png) no-repeat;text-indent: -9999px;margin-bottom: 5px;}
+.qq .b2 span{display: inline-block;line-height: 30px;height: 30px;}
+.qq .b2 .l>a{display: inline-block;width: 77px; height: 22px;background: url(../images/qqtalk.png) no-repeat;text-indent: -9999px;}
+.qq .b2 .r{width: 380px; height: 260px;float: right;}
+.qq .b2 .r h1{width: 217px;height: 25px;background: url(../images/youxi.png) no-repeat;text-indent: -9999px;margin-bottom: 5px;}
+.qq .b2 span{display: inline-block;line-height: 30px;height: 30px;}
+.qq .b2 .r a{display: inline-block;width: 77px; height: 22px;background: url(../images/qqtalk.png) no-repeat;text-indent: -9999px;}
+.headerW .header .nav .index a{border-right: 1px #000000 solid;border-bottom: none;width:70px;display: block;height: 15px;}
+.headerW .header .nav .product a{border-left: none;display: block;width: 80px;height: 15px;border-right: 1px #000000 solid;}
+.headerW .header .nav .contact a{border-left: 0 #000000 solid;display: block;width: 60px;border-bottom: 2px #000000 solid;height: 18px;margin: 0 auto;}

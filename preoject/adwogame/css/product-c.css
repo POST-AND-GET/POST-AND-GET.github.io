@@ -1,0 +1,39 @@
+.headerW .header .nav .index a{border-right: 1px #000000 solid;border-bottom: none;width:70px;display: block;height: 15px;}
+.headerW .header .nav .product a{border-left: none;border-bottom: 2px #000000 solid;display: block;width: 60px;height: 18px;margin: 0 auto;}
+.headerW .header .nav .contact a{border-left: 1px #000000 solid;display: block;width: 80px;}
+.content .content-head{width: 960px; height: 45px;border-bottom: 2px #000000 solid;line-height: 60px;color: #333333;}
+.content .content-L{width: 227px;height: auto;float: left;margin-top: 35px;}
+
+.content .content-L .icon{width:160px; height:160px;border-radius: 30px;overflow: hidden;margin: 0 auto;  -webkit-box-shadow:0 15px 20px #a8a8a8;-moz-box-shadow:0 105px 20px #a8a8a8;box-shadow:0 15px 20px #a8a8a8;}
+.content .content-L .downloadimg{width: 145px; ;height: 145px; margin: 40px auto 15px;}
+.content .content-L .downloadurl{width: 226px; height: 37px; background: url(../images/down.png) no-repeat;padding-top: 10px;overflow: hidden;}
+.content .content-L .downloadurl a{width: 107px; height: 26px; margin: 0 auto;background: url(../images/android-ico.png) no-repeat left top;padding-left: 25px;display: block;color: #FFFFFF;line-height: 26px;}
+.content .content-L .name{width: 225px; height: 41px; border-bottom: 2px #000000 solid; border-top: 2px #000000 solid;margin-top: 35px;line-height: 41px;t}
+.content .content-L #free{float: right;color: #68a203;}
+.content .content-L .con{height: 295px;width: 225px; font-size: 14px;color:#b2b2b2 ;padding: 5px;}
+.content .content-L .con>div{line-height: 20px;}
+
+
+.content .content-R{width: 733px;min-height: 800px;float: left;margin-top: 35px;}
+.content .content-R #name1{margin-left: 48px;height: 50px;line-height: 50px;}
+.cont{height:392px;width:686px;position:relative;overflow:hidden;background: url(../images/banner.png) no-repeat;margin-left: 48px;}
+.drama-poster{width:686px;height:344px;overflow:hidden;position:relative; }
+.drama-poster ul{width:10000px;position: absolute;height: 344px;}
+.drama-poster li{margin-right: 18px;}
+.show-poster-3{float:left;}
+.show-poster-3 .img{display:block;}
+
+.drama-slide li{position:absolute;top:129px}
+.drama-slide li.prev{left:0}
+.drama-slide li.next{right:0}
+.drama-slide li a{display:block;width:55px;height:85px;background:url(../images/pre-next.png) no-repeat;text-indent:-1000em}
+.drama-slide li.prev a{background-position:0 0}
+.drama-slide li.next a{background-position:-55px 0}
+.point{position: absolute;bottom: 9px;left:295px }
+.point li{width: 10px; height: 10px; background: url(../images/point.png) no-repeat 0 0;float: left;margin-left: 10px} 
+.point .c{background-position: -10px 0;}
+.content .content-R .neirong{width: 686px; margin-left: 48px;margin-top: 20px;}
+.content .content-R .neirong h3{width: 95px; height: 25px;background: url(../images/neirongjianjie.png) no-repeat;text-indent: -9999px;}
+.content .content-R .neirong p{font-size: 14px;margin-top: 27px;color: #231f20;font-weight: 600;}
+
+

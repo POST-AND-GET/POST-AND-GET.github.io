@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+body {
+	position: relative;
+}
+.bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 320px;
+	z-index: -99;
+}
+.qinqing {
+	position: absolute;
+	left: 55px;
+	top: 215px;
+	width: 87px;
+	height: 87px;
+}
+.aiqing {
+	position: absolute;
+	left: 185px;
+	top: 280px;
+	width: 87px;
+	height: 87px;
+}
+.youqing {
+	position: absolute;
+	left: 75px;
+	top: 365px;
+	width: 87px;
+	height: 87px;
+}
+.content {
+	position: absolute;
+	top: 105px;
+	left: 0;
+	width: 320px;
+	height: 416px;
+}
+.text {
+	width: 198px;
+	margin: 0 auto;
+}
+.img {
+	width: 220px;
+	margin: 22px auto 0;
+}
+.heka {
+	position: absolute;
+	left: 0;
+	top: 198px;
+	width: 320px;
+	height: 269px
+	
+}
+.wenzi {
+	width: 230px;
+	height: 155px;
+	margin: 0 auto;
+}
+.wenzi .f{
+	position: absolute;
+	top: 7px;
+	width: 230px;
+	height: 140px;
+	background: #000000;
+	opacity: 0.3;
+}
+#t {
+	position: absolute;
+	left: 65px;
+	top: 44px;
+	width: 198px;
+	line-height: 24px;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	z-index: 99;
+}
+.video {
+	width: 230px;
+	height: 125px;
+	margin: 0 auto;
+	background: url(../images/video.jpg) no-repeat;
+	background-size: 230px 125px;
+}
+.video video {
+	opacity: 0;
+}
+#share {
+	float: right;
+	width: 83px;
+	height: 27px;
+	margin-right: 30px;
+	margin-top: 8px;
+	
+}
+#zhizuo {
+	float: right;
+	width: 102px;
+	height: 20px;
+	margin-right: 30px;
+	margin-top: 8px;
+	display: none;
+	
+}
+#share-bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 320px;
+	display: none;
+	z-index: 999;
+}
+
+
+#blessItem{display:block;width:250px;height:35px;margin:5px auto;background: none;border:1px solid #ffe300;font-family:"微软雅黑";color:#fff;padding-right:30px;background:#bf0807 url('../images/down.jpg') no-repeat 217px center;background-size:32px 32px;-webkit-appearance: none;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+#blesscon{width:210px;height:92px;margin:10px auto;background:url('../images/blessbg.jpg') no-repeat;background-size:250px 122px;color:#fff;line-height: 20px;padding:20px;padding-top:10px;}
+#makecard{width:98px;height:26px;display:block;background:url('../images/cardbtn.jpg') no-repeat;background-size:98px 26px;float:right;margin-right:40px; }

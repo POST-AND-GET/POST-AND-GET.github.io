@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+		<title>预约试驾-长安铃木</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css">
+		<style type="text/css">
+			.bg{width: 320px;}
+		</style>
+		<script src="js/jquery-1.7.2.min.js"></script>
+		<script src="js/json.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body onload="resetPage();">
+		<img class="bg" src="images/bg.jpg"/>
+		<div class="content">
+			<h1><img src="images/title.png"/ width="126" height="29"></h1>
+			<div class="form">
+				<div class="name"><span>姓名:</span><input type="text" name="name" id="name" value="" /></div>
+				<div class="phone"><span>电话:</span><input type="text" name="name" id="phone" value="" /></div>
+				<div class="province">
+					<span>省:</span>
+					<select id="province" onchange="p_change();">
+				<option value="">--请选择--</option>
+					</select>
+				</div>
+				<div class="city">
+				<span>市:</span>
+				<select id="city" onchange="c_change();">
+						<option value="">--请选择--</option>
+				</select>
+				</div>
+				<div class="dealer">
+					<span>经销商门店:</span>
+				<select id="dealer" >
+					<option value="">--请选择--</option>
+					</select>
+				</div>
+				<div id="button" onclick="submit();">
+					<img src="images/button.png" width="78" height="25"/>
+				</div>
+			</div>
+			<img class="success" src="images/success.png" width="158" height="50"/>
+		</div>
+		<ul class="nav">
+			<li onclick="location.href = 'yuyue.html'"></li>
+			<li onclick="location.href = 'show.html'"></li>
+			<li onclick="location.href = 'peizhi.html'"></li>
+			<li onclick="location.href = 'jingxiao.html'"></li>
+		</ul>
+	</body>
+	<script src="js/common.js"></script>
+	<script src="js/submit.js"></script>
+</html>

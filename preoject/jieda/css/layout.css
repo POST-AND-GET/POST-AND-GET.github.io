@@ -1,0 +1,13 @@
+/*index css*/
+.container{min-width:320px; min-height: 524px;overflow: hidden;background:url('../images/bg.png') no-repeat;background-size: 320px 524px;position: relative;}
+.pic {float:left; position:absolute; bottom:80px;z-index:5;}
+.pic02 {left:0px; } 
+.big{z-index:10;}   
+.pic03{left:50px;bottom:70px;}
+.pic04{left:200px;}
+.pic05{left:300px;}
+.pic01{left:-100px;}
+.bottom{bottom:70px;}
+
+.blur{ -webkit-filter: blur(1px);  -moz-filter: blur(1px); -ms-filter: blur(1px);  filter: blur(1px);}
+.index99{z-index:99;}

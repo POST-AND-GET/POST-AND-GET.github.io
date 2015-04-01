@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+		<title>康师傅</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+	</head>
+	<body>
+		<img id="share-bg" src="images/share.png"/>
+		<img class="bg" src="images/heka.jpg" />
+		
+		<div class="heka">
+			<div class="wenzi">
+				<p id="t"></p>
+				<div class="f"></div>
+				<img id="hekabg" src="" width="230" height="155"/>
+			</div>
+			<div class="video">
+				<video width="230" height="125" preload="none" controls="controls">
+					<source src="images/video.mp4" type="video/mp4"></source>
+				</video>
+			</div>
+			<a href="#" ><button id="share"><img src="images/share-btn.png" width="83" height="27"/></button></a>
+			<button id="zhizuo"><img src="images/shuyu.jpg" width="102" height="20"/></button>
+		</div>
+		
+		<!-- <audio id="audio" src="images/music.mp3" autoplay="autoplay" loop="loop" style="width: 0;height: 0;"></audio> -->
+		
+		<script src="js/get.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/share.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+        <script src="js/sha.js"></script>
+        <script src="js/check.js"></script>
+        <script>
+            var obj = sign(localStorage.getItem("ticket"), window.location.href);
+            wx.config({
+                debug: false,
+                appId: 'wx866a50062b092ff6',
+                timestamp: obj.timestamp,
+                nonceStr: obj.nonceStr,
+                signature: obj.signature,
+                jsApiList: [
+                  'onMenuShareTimeline',
+                  'onMenuShareAppMessage'
+                ]
+            });
+            wx.ready(function () {
+                var imgUrl = 'http://static.adwo.com/ad/201502/ksf/images/wxicon.jpg';
+                var descContent = '梦想贺新年，你为谁许愿？';
+                var shareTitle = '梦想贺新年，你为谁许愿？';
+                var lineLink = window.location.href + "&k=0";
+                runfun(function () {
+                    wx.onMenuShareAppMessage({
+                        title: shareTitle, // 分享标题
+                        desc: descContent, // 分享描述
+                        link: lineLink, // 分享链接
+                        imgUrl: imgUrl, // 分享图标
+                        success: function () { },
+                        cancel: function () { }
+                    });
+                })
+                runfun(function () {
+                    wx.onMenuShareTimeline({
+                        title: shareTitle, // 分享标题
+                        link: lineLink, // 分享链接
+                        imgUrl: imgUrl, // 分享图标
+                        success: function () { },
+                        cancel: function () { }
+                    });
+                });
+                wx.error(function (res) {
+                    runajax();
+                });
+            });
+        </script>
+        <script type="text/javascript">
+            function resetPage() {
+                var deviceWidth = document.documentElement.clientWidth,
+                    scale = deviceWidth / 320;
+                document.body.style.zoom = scale;
+            }
+            resetPage();
+        </script>
+	</body>
+</html>

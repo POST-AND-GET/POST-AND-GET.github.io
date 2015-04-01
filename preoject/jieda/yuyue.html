@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<script type="text/javascript">
+			var channel = 20;
+			
+		</script>
+		<title>捷达-预约试驾</title>
+	</head>
+	<body onload="resetPage()">
+		<div class="W">
+			<img id="bg-index" src="images/yuyue.jpg" />
+			<div class="content-1">
+				<div id="closeBtn" onclick="window.location.href='index.html'"></div>
+				<div class="form1">
+					<div class="name">
+						<span>姓名:</span>
+						<input type="text" id="name"/>
+					</div>
+					<div class="phone">
+						<span>手机号码:</span>
+						<input type="text" id="phone"/>
+					</div>
+					<!------------------------->
+					<div class="province">
+						<span>省份:</span>
+						<select name="" id="province" onchange="p_change();">
+							<option value="">请选择</option>
+						</select>
+					</div>
+										
+					<div class="city">
+						<span>城市:</span>
+						<select name="" id="city" onchange="c_change();">
+							<option value="">请选择</option>
+						</select>
+					</div>
+					<div class="jxs">
+						<span>经销商:</span>
+						<select name="" id="jxs">
+							<option value="">请选择</option>
+						</select>
+					</div>
+					<!-------------------------->
+					<div class="sjcx">
+						<span>试驾车型:</span>
+						<select id="sjcx">
+							<option value="捷达">捷达</option>
+						</select>
+					</div>
+					<div class="cxxx">
+						<span>车型详细:</span>
+						<select id="cxxx">
+							<option value="捷达 1.4L 手动时尚型">捷达 1.4L 手动时尚型</option>
+							<option value="捷达 1.4L手动舒适型">捷达 1.4L手动舒适型</option>
+							<option value="捷达SPORTLINE1.4T自动">捷达SPORTLINE1.4T自动</option>
+							<option value="捷达 1.6L手动豪华型">捷达 1.6L手动豪华型</option>
+							<option value="捷达 1.6L手动时尚型">捷达 1.6L手动时尚型</option>
+							<option value="捷达 1.6L手动舒适型">捷达 1.6L手动舒适型</option>
+							<option value="捷达 1.6L自动豪华型">捷达 1.6L自动豪华型</option>
+							<option value="捷达 1.6L自动时尚型">捷达 1.6L自动时尚型</option>
+							<option value="捷达 1.6L自动舒适型">捷达 1.6L自动舒适型</option>
+						</select>
+					</div>
+					<div class="time">
+						<span>预约时间:</span>  
+						<select id="time">
+							<option value="3个月">3个月</option>
+							<option value="3-6个月">3-6个月</option>
+							<option value="6-12月">6-12月</option>
+						</select>
+					</div>
+					<button id="submit" onclick="if(isnull() && isphone()&&isnull1()&&isnull2() &&isnull3() ) {submit1()}">提交</button>
+				</div>
+			</div>
+			<ul class="bottom">
+				<li id="yy" ></li>
+				<li id="cx"></li>
+				<li id="info"></li>
+				<li id="yulu"></li>
+			</ul>
+		</div>
+	</body>
+	<script src="js/jquery-1.7.2.min.js" type="text/javascript" ></script>
+	<script src="js/json.js" type="text/javascript" ></script>
+	<script src="js/common.js" type="text/javascript" ></script>
+</html>
