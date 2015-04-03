@@ -4,7 +4,7 @@ title: "About"
 description: "记录自己学习之路的点滴。"
 ---
 
-<img src="http://www.rol.xyz/wp-content/uploads/2014/09/mmqrcode1410062609265.jpg">
+<img src="http://7xif9n.com1.z0.glb.clouddn.com/wx.jpg">
 
 #### ChangeLog
 
