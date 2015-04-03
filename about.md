@@ -5,6 +5,9 @@ description: "记录自己学习之路的点滴。"
 ---
 
 #### ChangeLog
+
+<img src="http://www.rol.xyz/wp-content/uploads/2014/09/mmqrcode1410062609265.jpg">
+
 - 2015年04月:    创建自己的工作作品展示页：<a href="/show/index.html">项目列表</a>
 - 2014年11月:    加入GitHub
 - 2014年08月:    rol.xyz博客建立，开始偏重移动前端学习
