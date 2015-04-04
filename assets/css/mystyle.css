@@ -20,7 +20,7 @@
 }
 .azqimg:hover{
 	opacity: 1;
-	-webkit-transition: all 1s;
-	-o-transition: all 1s;
-	transition: all 1s;
+	-webkit-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
 }
