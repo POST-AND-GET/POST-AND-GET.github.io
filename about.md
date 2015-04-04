@@ -4,10 +4,9 @@ title: "About"
 description: "记录自己学习之路的点滴。"
 ---
 
-<div style="position: relative;width:60%;margin: 0 auto;height: auto;">
-<audio preload="none" style="position: absolute;bottom: 0;right: 0;left: 0;margin: 0 auto;width: 100%" src="http://myazqtest.qiniudn.com/Birdy - All About You.mp3" controls="controls"></audio>
-<img src="https://unsplash.imgix.net/photo-1426200830301-372615e4ac54?fit=crop&fm=jpg&q=75&w=1050" width="100%">
-
+<div class="azq">
+<audio class="azqaudio" preload="none" src="http://myazqtest.qiniudn.com/yzwylzl.mp3" controls="controls"></audio>
+<img src="https://ununsplash.imgix.net/photo-1421091242698-34f6ad7fc088?fit=crop&fm=jpg&h=725&q=75&w=1050" width="100%">
 </div>
 
 
