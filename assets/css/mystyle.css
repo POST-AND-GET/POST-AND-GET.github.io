@@ -14,3 +14,12 @@
 	margin: 0 auto;
 	width: 100%
 }
+.azqimg{
+	opacity: 0.8;
+}
+.azqimg:hover{
+	opacity: 1;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
