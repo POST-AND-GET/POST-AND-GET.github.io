@@ -5,6 +5,7 @@ description: "记录自己学习之路的点滴。"
 ---
 
 <img src="http://7xif9n.com1.z0.glb.clouddn.com/wx.jpg">
+<audio src="http://myazqtest.qiniudn.com/Birdy - All About You.mp3" controls="controls"></audio>
 
 #### ChangeLog
 
