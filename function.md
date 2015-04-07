@@ -4,6 +4,7 @@ title: "Function"
 description: "安志清的函数库"
 ---
 *判断浏览器是否支持ajax并返回一个能用的这个实例*
+
 	function xmlHttp(){
 		var xmlHttp;
 		try { xmlHttp = new XMLHttpRequest(); }
@@ -18,6 +19,7 @@ description: "安志清的函数库"
 	}
 - - -
 *ajax异步的GET方式，前提有xmlHttp()函数*
+
 	function ajaxGet(url,fnSucc,fnFaild){
 	    var timeout,xmlHttp = xmlHttp();
 	    xmlHttp.open('GET',url,true);
@@ -39,7 +41,8 @@ description: "安志清的函数库"
 	    },1000 * 30); 
 	}
 - - -
-*ajax异步的POST方式，前提有xmlHttp()函数*    
+*ajax异步的POST方式，前提有xmlHttp()函数* 
+
 	function ajaxPost(url,json,fnSucc,fnFaild){
 	    var timeout,xmlHttp = xmlHttp();
 	    xmlHttp.open('POST',url,true);
@@ -64,6 +67,7 @@ description: "安志清的函数库"
 	}
 - - -
 *利用script的跨域，并自动写到全局的返回函数*
+
     function Ajax(url,json,fn){
         var d = new Date().getTime();
         eval("window.ajax_"+d+"= fn;");
