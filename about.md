@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About"
+title: "About Me"
 description: "记录自己学习之路的点滴。"
 ---
 
