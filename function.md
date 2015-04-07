@@ -4,6 +4,18 @@ title: "Function"
 description: "安志清的函数库"
 ---
 
+*获取根目录地址*
+
+	function getRootPath(){
+		var strFullPath=window.document.location.href;
+		var strPath=window.document.location.pathname;
+		var pos=strFullPath.indexOf(strPath);
+		var prePath=strFullPath.substring(0,pos);
+		var postPath=strPath.substring(0,strPath.substr(1).indexOf('/')+1);
+		return(prePath+postPath);
+	}
+
+- - -	
 *js获取url中的参数*
 
 	function getQueryString(name) {
