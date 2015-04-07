@@ -3,6 +3,17 @@ layout: page
 title: "Function"
 description: "安志清的函数库"
 ---
+
+*js获取url中的参数*
+
+	function getQueryString(name) {
+	    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+	    var r = window.location.search.substr(1).match(reg);
+	    if (r != null) return decodeURI(r[2]);
+	    return null;
+	}
+
+- - -
 *判断浏览器是否支持ajax并返回一个能用的这个实例*
 
 	function xmlHttp(){
@@ -67,7 +78,7 @@ description: "安志清的函数库"
 	        fnFaild ('请求超时！！'); 
 	    },1000 * 30); 
 	}
-	
+
 - - -
 *利用script的跨域，并自动写到全局的返回函数*
 
