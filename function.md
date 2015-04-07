@@ -17,6 +17,7 @@ description: "安志清的函数库"
 		}
 		return xmlHttp;
 	}
+
 - - -
 *ajax异步的GET方式，前提有xmlHttp()函数*
 
@@ -40,6 +41,7 @@ description: "安志清的函数库"
 	        fnFaild ('请求超时！！'); 
 	    },1000 * 30); 
 	}
+
 - - -
 *ajax异步的POST方式，前提有xmlHttp()函数* 
 
@@ -65,6 +67,7 @@ description: "安志清的函数库"
 	        fnFaild ('请求超时！！'); 
 	    },1000 * 30); 
 	}
+	
 - - -
 *利用script的跨域，并自动写到全局的返回函数*
 
