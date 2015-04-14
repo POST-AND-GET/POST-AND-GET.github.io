@@ -61,7 +61,7 @@
     function moveVertical(i) {
         if (isTop || isDown) {
             wrap.style.top =-i * sHeight + "px";
-            wrap.style.webkitTransition = "top 1s cubic-bezier(1,1,1,1) 0";
+            wrap.style.webkitTransition = "top 1s ease 0";
             wrap.style.transition = "top 1s ease 0";
             isTop = false;
         }
