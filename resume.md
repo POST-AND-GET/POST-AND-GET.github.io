@@ -11,6 +11,7 @@ description: "个人简历"
 
 
 #### 资料
+
 - 姓名：安志清
 - 出生年份：1990年
 - 籍贯：河北省廊坊市香河县
@@ -19,5 +20,6 @@ description: "个人简历"
 
 #### 经历
 
+-
 
 {% include comments.html %}
