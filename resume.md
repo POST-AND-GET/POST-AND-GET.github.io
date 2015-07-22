@@ -25,4 +25,6 @@ description: "个人简历"
 
 #### 项目经历
 
+- 微信积分墙
+
 {% include comments.html %}
