@@ -109,6 +109,20 @@ description: "安志清的函数库"
         document.body.appendChild(script);
         script.remove();
     }
+    
+- - -
+*数组随机和排序*
 
-
+	//随机取得数组中的一个
+	function arrRandom(arr){
+		var n = Math.floor(Math.random() * arr.length + 1)-1;
+		return arr[n]
+	}
+	//随机排序整个数组
+	function arrOrder(arr){
+		arr.sort(function(){return Math.random()>0.5?-1:1;});  
+        return arr;
+	}	
+	
+	
 {% include comments.html %}
