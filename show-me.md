@@ -25,8 +25,11 @@ description: "个人简历"
 
 #### 项目经历
 
-- 微信积分墙
-- <a href='http://azq.space/adwoH5/' target='_blank'>安沃搬家页面 </a>
 - GODIVA歌帝梵#谱写夏日恋曲#活动页面
+- <a href='http://azq.space/adwoH5/' target='_blank'>安沃搬家页面 </a>
+- 宝来&捷达宣传页面
+- 微信积分墙
+
+
 
 {% include comments.html %}
