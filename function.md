@@ -122,7 +122,17 @@ description: "安志清的函数库"
 	function arrOrder(arr){
 		arr.sort(function(){return Math.random()>0.5?-1:1;});  
         return arr;
-	}	
+	}
 	
+- - -
+*获取当前根目录*
+
+	function nowUrl(){
+		var a = window.location.href;
+		var b = a.split('//')[1].split('/');
+		var c = b.length-1;
+		var d = b[c];
+		return a.replace(d,'');
+	}
 	
 {% include comments.html %}
