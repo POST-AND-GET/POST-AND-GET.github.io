@@ -29,6 +29,8 @@ description: "个人简历"
 - <a href='http://azq.space/adwoH5/' target='_blank'>安沃搬家页面 </a>
 - 宝来&捷达宣传页面
 - 微信积分墙
+- 安沃游戏PC官网
+- 宝来、捷达等各个时间投放页面
 
 
 
