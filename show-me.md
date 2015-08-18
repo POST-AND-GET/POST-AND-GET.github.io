@@ -25,6 +25,8 @@ description: "个人简历"
 
 #### 项目经历
 
+- 红牛FC社区
+- 红牛七夕
 - 优博有机奶粉上传图片抽奖页面(canvas、FileReader)
 - GODIVA歌帝梵#谱写夏日恋曲#活动页面
 - <a href='http://azq.space/adwoH5/' target='_blank'>安沃搬家页面 </a>
