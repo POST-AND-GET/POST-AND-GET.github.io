@@ -12,7 +12,7 @@ description: "记录自己学习之路的点滴。"
 
 #### ChangeLog
 
-- 2014年11月:    加入GitHub,创建GitGub首页;
+- 2014年9月:    加入GitHub,创建GitGub首页;
 
 
 <img src="http://7xif9n.com1.z0.glb.clouddn.com/wx.jpg">
