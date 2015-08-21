@@ -34,7 +34,7 @@ description: "个人简历"
 - 全日空sdk平台投放广告（appfun）动画
 - 宝来&捷达宣传页面
 - 微信积分墙
-- <a href="http://game.adwo.com" target="_blank"></a>安沃游戏PC官网
+- <a href="http://game.adwo.com" target="_blank">安沃游戏PC官网</a>
 - 宝来、捷达等各个时间投放页面
 - 安沃调查问卷
 
