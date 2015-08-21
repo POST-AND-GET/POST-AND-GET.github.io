@@ -25,23 +25,19 @@ description: "个人简历"
 
 #### 项目经历
 
+- 积分墙模板（sdk）
 - 红牛FC社区
 - 红牛七夕
 - 优博有机奶粉上传图片抽奖页面(canvas、FileReader)
 - GODIVA歌帝梵#谱写夏日恋曲#活动页面
 - <a href='http://azq.space/adwoH5/' target='_blank'>安沃搬家页面 </a>
+- 全日空sdk平台投放广告（appfun）动画
 - 宝来&捷达宣传页面
 - 微信积分墙
 - 安沃游戏PC官网
 - 宝来、捷达等各个时间投放页面
 - 安沃调查问卷
-.
 
-.
-
-.
-
-整理……
 
 
 
