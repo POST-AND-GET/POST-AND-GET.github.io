@@ -46,7 +46,8 @@ description: "个人简历"
 - jquery
 - artTemplate模板引擎
 了解：
-- bootstrap、angular
+- bootstrap、angular 、妹子ui
+- less 、 sass
 - hammer
 - nodejs
 - Hybrid App 、 mui组件 、 nativejs 、 h5+
