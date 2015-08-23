@@ -42,6 +42,13 @@ description: "个人简历"
 #### 技能
 
 - 初级的初级php、初级的初级mysql
+- html5、css3、js
+- jquery
+了解：
+- bootstrap、angular
+- hammer
+- nodejs
+- Hybrid App 、 mui组件 、 nativejs 、 h5+
 
 
 {% include comments.html %}
