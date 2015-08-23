@@ -39,7 +39,9 @@ description: "个人简历"
 - 宝来、捷达等各个时间投放页面
 - 安沃调查问卷
 
+#### 技能
 
+- 初级的初级php、初级的初级mysql
 
 
 {% include comments.html %}
