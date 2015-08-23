@@ -44,6 +44,7 @@ description: "个人简历"
 - 初级的初级php、初级的初级mysql
 - html5、css3、js
 - jquery
+- artTemplate模板引擎
 了解：
 - bootstrap、angular
 - hammer
