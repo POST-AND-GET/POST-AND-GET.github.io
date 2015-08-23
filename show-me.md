@@ -32,6 +32,7 @@ description: "个人简历"
 - GODIVA歌帝梵#谱写夏日恋曲#活动页面
 - <a href='http://azq.space/adwoH5/' target='_blank'>安沃搬家页面 </a>
 - 全日空sdk平台投放广告（appfun）动画
+- 广告sdk模板维护
 - 宝来&捷达宣传页面
 - 微信积分墙
 - <a href="http://game.adwo.com" target="_blank">安沃游戏PC官网</a>
