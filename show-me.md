@@ -42,6 +42,7 @@ description: "个人简历"
 #### 技能
 
 - 初级的初级php、初级的初级mysql
+- 会切图
 - html5、css3、js
 - jquery
 - artTemplate模板引擎
