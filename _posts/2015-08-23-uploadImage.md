@@ -49,6 +49,7 @@ tags: [上传照片]
                 img.src = imgData;
                 img.onload = function(){//必须onload之后再画
                     ctx.drawImage(img,0,0,300,400);
+                    strDataURI = cvs.toDataURL();//获取canvas base64数据
                 }
     }
 
