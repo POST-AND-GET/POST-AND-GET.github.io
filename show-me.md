@@ -46,6 +46,7 @@ description: "个人简历"
 - html5、css3、js
 - jquery
 - artTemplate模板引擎
+
 了解：
 - bootstrap、angular 、妹子ui
 - less 、 sass
