@@ -49,11 +49,13 @@ description: "个人简历"
 
 了解：
 
+- 微信公众平台api
 - bootstrap、angular 、妹子ui
 - less 、 sass
 - hammer
 - nodejs
 - Hybrid App 、 mui组件 、 nativejs 、 h5+
+- 白鹭引擎、cocos2d-js、createjs……
 
 
 {% include comments.html %}
