@@ -25,6 +25,8 @@ description: "个人简历"
 
 #### 项目经历
 
+项目中用到了css3的两种动画，canvas引入图片导出base64，以及html5一些媒体标签和相应js api，ajax基本每个项目都用到
+
 - 积分墙模板（sdk）
 - 红牛FC社区
 - 红牛七夕
@@ -58,5 +60,7 @@ description: "个人简历"
 - 白鹭引擎、cocos2d-js、createjs……
 - WEBGL、three.js
 
-
+#### 说明
+ 
+js，css，html都是大三的时候自学，会用会写，不会的上网找答案，没有太多理论基础，但是现在我也在努力弥补这一点，希望hr看到这些能和贵公司技术部门沟通好，这样双方都能节省时间，更快的找到合适的人选
 {% include comments.html %}
