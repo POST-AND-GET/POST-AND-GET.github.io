@@ -134,5 +134,22 @@ description: "安志清的函数库"
 		var d = b[c];
 		return a.replace(d,'');
 	}
+		
+- - -
+*删除数组指定值*
+
+	Array.prototype.indexOf = function(val) {
+		for (var i = 0; i < this.length; i++) {
+		    if (this[i] == val) return i;
+		}
+		return -1;
+	};
+	Array.prototype.remove = function(val) {
+		var index = this.indexOf(val);
+		if (index > -1) {
+		    this.splice(index, 1);
+		}
+	};
+	//举个栗子：var emp = ['abs','dsf','sdf','fd'] ;emp.remove('fd'); 
 	
 {% include comments.html %}
