@@ -3,16 +3,16 @@
         "title": "GitCafe",
         "url": "//gitcafe.com/anzhiqing"
     },
-	{
-        "title": "乐乎",
-        "url": "//anzhiqing.lofter.com"
-    },
-    {
-        "title": "rol",
-        "url": "//rol.xyz"
-    },
     {
         "title": "Jekyll",
         "url": "//jekyllrb.com"
+    },
+    {
+        "title": "阮一峰",
+        "url": "//www.ruanyifeng.com/blog/"
+    },
+    {
+        "title": "张鑫旭",
+        "url": "//www.zhangxinxu.com/"
     },
 ]
