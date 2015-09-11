@@ -16,7 +16,7 @@ tags: [css选择器]
       </div>
     </div>
 
-爷爷grandfather与孙子child1属于祖宗与后代关系（空格表达）
-父亲father与儿子child1属于父子关系，也算是祖先与后代关系（>表达）
-哥哥child1与弟弟child2属于临近兄弟关系（+表达）
-哥哥child1与弟弟child2,弟弟child3都属于普通兄弟关系（~表达）
+- 爷爷grandfather与孙子child1属于祖宗与后代关系（空格表达）
+- 父亲father与儿子child1属于父子关系，也算是祖先与后代关系（>表达）
+- 哥哥child1与弟弟child2属于临近兄弟关系（+表达）
+- 哥哥child1与弟弟child2,弟弟child3都属于普通兄弟关系（~表达）
