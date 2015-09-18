@@ -30,7 +30,8 @@ description: "个人简历"
 
 - 积分墙模板（sdk）
 - 红牛FC社区
-- 红牛七夕
+- <a href="http://anzhiqing.gitcafe.io/hnrecruit/" target="_blank">红牛招募</a>
+- <a href="http://anzhiqing.gitcafe.io/hn7x/" target="_blank">红牛七夕</a>
 - 优博有机奶粉上传图片抽奖页面(canvas、FileReader)
 - GODIVA歌帝梵#谱写夏日恋曲#活动页面
 - <a href='http://azq.space/adwoH5/' target='_blank'>安沃搬家页面 </a>
